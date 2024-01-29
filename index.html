@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dev in adopt</title>
+    <title>Pet in adopt</title>
     <link rel="stylesheet" href="./index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,13 +19,13 @@
         <nav>
           <ul>
             <li>
-              <a href="#">Login</a>
+              <a href="#">Log In</a>
             </li>
             <li>
-              <a href="#">Crie sua conta</a>
+              <a href="#">Sign Up</a>
             </li>
             <li>
-              <a href="#">Contato</a>
+              <a href="#">Contact</a>
             </li>
           </ul>
         </nav>
@@ -33,27 +33,72 @@
     </header>
 
     <main>
-      <section>
-        <div class="container">
-            <figure>
-                <img class="logo" src="./assets/Logo.jpeg" alt="Logo da marca">
-            </figure>
-        </div>
-      </section>
+      <div class="container">
+        <section>
+          <figure>
+            <img class="logo" src="./assets/Logo.jpeg" alt="Logo da marca" />
+          </figure>
+        </section>
 
-      <section id="login">
-        <div class="container">
-            <h2>Faça seu login:</h2>
+        <section>
+          <div class="login">
+            <h2>Login:</h2>
             <form>
-                <input type="email" placeholder="Digite seu e-mail">
-                <input type="password" placeholder="Digite sua senha">
-                <button type="submit">Enviar</button>
+              <input type="email" placeholder="E-mail" required />
+              <input type="password" placeholder="Password" required />
+              <button type="submit">Submit</button>
             </form>
-        </div>
-      </section>
-
+          </div>
+        </section>
+      </div>
     </main>
 
-    <footer>&copy; Dev in adopt - Todos os direitos reservados. - 2024</footer>
+    <footer>
+      <div class="container">
+        <div class="contact">
+          <div class="address">
+            <h3>Address:</h3>
+            <p>HTML Street, Bairro JavaScript, nº3 - FrontEnd/FE</p>
+          </div>
+
+          <div class="phone">
+            <h3>Phones:</h3>
+            <p>(99) 0123-4567</p>
+            <p>(99) 01234-5678</p>
+          </div>
+
+          <div class="about">
+            <h3>Follow us:</h3>
+            <ul>
+              <li>
+                <img
+                  class="logo"
+                  src="./assets/instagram.png"
+                  alt="ícone do instagram"
+                />
+              </li>
+              <li>
+                <img
+                  class="logo"
+                  src="./assets/facebook.png"
+                  alt="ícone do facebook"
+                />
+              </li>
+              <li>
+                <img
+                  class="logo"
+                  src="./assets/youtube.png"
+                  alt="ícone do youtube"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; 2024 - Dev in adopt - all rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

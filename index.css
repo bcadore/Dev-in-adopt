@@ -4,51 +4,110 @@
   box-sizing: border-box;
 }
 
-body,
-input,
-textarea {
-  font-family: "Roboto", sans-serif;
-}
-
-header {
-  background-color: lightgreen;
-  color: darkgreen;
-  padding: 16px;
-}
-
-header h1,
-section h2,
-section h3,
-form button {
-  font-family: "Bungee", sans-serif;
-  font-weight: normal;
-  font-size: 48px;
-}
-
-header nav li {
-  display: inline;
-  margin-left: 24px;
-  font-size: 24px;
-}
-
-header nav li a {
-  color: darkgreen;
-  text-decoration: none;
-}
-
-header .container,
-section .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .container {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
 }
 
-.logo {
-   height: 800px;
+header {
+  padding: 16px 0;
+  background-color: #e4fcf2;
+  color: #20627a;
+}
+
+header h1,
+section h2,
+footer h3,
+button {
+  font-family: "Bungee", sans-serif;
+  font-weight: normal;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+header nav li a {
+  color: #20627a;
+  text-decoration: none;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 48px auto;
+}
+
+main .logo {
+  height: 550px;
+}
+
+main .login {
+  padding: auto;
+}
+
+.login h2 {
+  text-align: center;
+  font-size: 36px;
+  padding-top: 48px;
+  color: #20627a;
+}
+
+form input,
+form button {
+  display: block;
+  width: 250px;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #20627a;
+}
+
+form button {
+  color: #20627a;
+  background-color: #e4fcf2;
+  cursor: pointer;
+  border: 1px solid #20627a;
+}
+
+form button:hover {
+  background-color: #c6f5e1;
+}
+
+input:focus {
+  color: #20627a;
+  background-color: #e4fcf2;
+}
+
+footer {
+  text-align: left;
+  padding: 16px 0;
+  background-color: #e4fcf2;
+  color: #20627a;
+}
+
+footer li img {
+  height: 24px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer .contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .copyright {
+  text-align: center;
 }
