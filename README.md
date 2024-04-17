@@ -29,15 +29,15 @@
 
 # Tabela de conteúdos
 
-- [Sobre o projeto](#💻-sobre-o-projeto)
-- [Estrutura do projeto](#⚙️-estrutura-do-projeto)
-- [Funcionalidades](#🎲-funcionalidades)
-- [Tecnologias](#🛠-tecnologias)
-- [Acesse a página](#✈️-acesse-a-página)
-- [Visualizando a página](#👀-visualizando-a-página)
-- [Autor](#🦸-autor)
-- [Licença](#📝-licença)
-- [Outras considerações](#⚠️-outras-considerações)
+- [Sobre o projeto](#-sobre-o-projeto)
+- [Estrutura do projeto](#-estrutura-do-projeto)
+- [Funcionalidades](#-funcionalidades)
+- [Tecnologias](#-tecnologias)
+- [Acesse a página](#-acesse-a-página)
+- [Visualizando a página](#-visualizando-a-página)
+- [Autor](#-autor)
+- [Licença](#-licença)
+- [Outras considerações](#-outras-considerações)
 
 ## 💻 Sobre o projeto
 
