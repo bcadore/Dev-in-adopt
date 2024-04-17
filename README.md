@@ -27,18 +27,6 @@
 	🚧 STATUS: Projeto concluído 🚧
 </h4>
 
-# Tabela de conteúdos
-
-- [Sobre o projeto](#-sobre-o-projeto)
-- [Estrutura do projeto](#-estrutura-do-projeto)
-- [Funcionalidades](#-funcionalidades)
-- [Tecnologias](#-tecnologias)
-- [Acesse a página](#-acesse-a-página)
-- [Visualizando a página](#-visualizando-a-página)
-- [Autor](#-autor)
-- [Licença](#-licença)
-- [Outras considerações](#-outras-considerações)
-
 ## 💻 Sobre o projeto
 
 Dev for adopt é uma landing page desenvolvida para uma empresa **fictícia** de adoção de animais.
